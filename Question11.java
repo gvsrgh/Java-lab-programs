@@ -1,6 +1,6 @@
 package lab01;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Question11 {
 	public static void main(String args[])
