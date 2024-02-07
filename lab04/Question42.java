@@ -77,5 +77,6 @@ public class Question42 {
             System.out.println("Cuboid " + (i + 1) + ":\n" + c1[i].toString());
         }
         in.close();
+        
     }
 }
