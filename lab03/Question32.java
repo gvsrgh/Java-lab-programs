@@ -71,5 +71,6 @@ public class Question32 {
                     System.out.println("enter a valid operation");
             }
         }while(choice!='e');
+        
     }
 }
