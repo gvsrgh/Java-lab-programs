@@ -12,7 +12,7 @@ public class Question12 {
 		float tip = i.nextFloat();
 		System.out.println("Enter tax Precentage: ");
 		float tax = i.nextFloat();
-		
+
 		float finalBill;
 		finalBill = bill + (bill*(tip/100)) + (bill*(tax/100));
 		
@@ -21,5 +21,6 @@ public class Question12 {
 		System.out.println("Tip: "+tip);
 		System.out.println("Tax: "+tax);
 		System.out.println("Final Price: "+finalBill);
+		
 	}
 }
