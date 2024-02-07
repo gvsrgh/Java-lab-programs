@@ -24,7 +24,6 @@ public class Question14 {
 			res=8*units+250;
 			System.out.println("Bill:"+res);
 		}
-		
 	}
 }
 
