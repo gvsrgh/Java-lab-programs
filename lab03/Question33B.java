@@ -8,5 +8,6 @@ public class Question33B {
 		Question3A.breadth = sc.nextInt();
 		Question3A.height = sc.nextInt();
 		Question3A.volume();
+		
 	}
 }
