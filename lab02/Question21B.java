@@ -26,8 +26,7 @@ public class Question21B {
 			 break;
 		 default:
 			 System.out.println("Enter valid character");
-			 break;
-			 		
+			 break;		
 		}
 	}
 }
