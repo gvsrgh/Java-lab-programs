@@ -12,12 +12,6 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'staircase' function below.
-     *
-     * The function accepts INTEGER n as parameter.
-     */
-
     public static void staircase(int n) {
         for(int i =1;i<=n;i++)
         {
