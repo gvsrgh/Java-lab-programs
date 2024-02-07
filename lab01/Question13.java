@@ -20,5 +20,6 @@ public class Question13 {
 			System.out.println("It's Hot");
 		else
 			System.out.println("It's Very Hot");
+		
 	}
 }
