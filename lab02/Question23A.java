@@ -27,6 +27,5 @@ public class Question23A {
 			System.out.println(check+" is an Amstrong number");
 		else
 			System.out.println(check+" is not an Amstrong number");
-		
 	}
 }
