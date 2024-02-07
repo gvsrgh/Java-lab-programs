@@ -13,6 +13,7 @@ public class Question23B {
 				sum+=i;
 			}
 		}
+		
 		if(sum==x) {
 			System.out.println(x+ " is a Perfect number");
 		}else {
