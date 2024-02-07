@@ -12,5 +12,6 @@ public class Question33A {
 		breadth=sc.nextInt();
 		height=sc.nextInt();
 		volume();
+		
 	}
 }
