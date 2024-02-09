@@ -2,11 +2,11 @@ package lab04;
 
 import java.util.Scanner;
 
-public class Question41A {
+public class Cuboid {
 	public double length;
 	public double breadth;
 	public double height;
-	public Question41A(double length,double breadth,double height)
+	public Cuboid(double length,double breadth,double height)
 	{
 		this.length = length;
 		this.breadth = breadth;
@@ -26,17 +26,17 @@ public class Question41A {
 		double breadth = in.nextDouble();
 		System.out.println("Enter Height: ");
 		double height = in.nextDouble();
-		Question41A c1 = new Question41A(length,breadth,height);
-		System.out.println("Enter the dimensions of 1st Cuboid");
+		Cuboid c1 = new Cuboid(length,breadth,height);
+		System.out.println("Enter the dimensions of 2nd Cuboid");
 		System.out.println("Enter Length: ");
 		length = in.nextDouble();
 		System.out.println("Enter Breadth: ");
 		breadth = in.nextDouble();
 		System.out.println("Enter Height: ");
 		height = in.nextDouble();
-		Question41A c2 = new Question41A(length,breadth,height);
-		System.out.println("The volume of the cuboid is "+c1.volume());
-		System.out.println("The volume of the cuboid is "+c2.volume());
+		Cuboid c2 = new Cuboid(length,breadth,height);
+		System.out.println("The volume of the 1st cuboid is "+c1.volume());
+		System.out.println("The volume of the 2nd cuboid is "+c2.volume());
 		in.close();
 		
 	}
