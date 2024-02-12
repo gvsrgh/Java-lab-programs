@@ -1,5 +1,4 @@
 package lab05;
-
 import java.io.*;
 
 class Result {
