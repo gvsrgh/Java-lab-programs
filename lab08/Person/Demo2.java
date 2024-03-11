@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class Demo2 {
 	public static void main(String []args) {
 		Scanner sc=new Scanner(System.in);
-		Person p[]=new Person[10];
+		int m;
+		System.out.println("Enter Number of persons: ");
+		m = sc.nextInt();
+		Person p[]=new Person[m];
 		int age=0;
 		String name="";
-		int n;
-		System.out.println("Enter number of Persons: ");
-		n = sc.nextInt();
-		for(int i=0;i<n;i++) {
+		for(int i=0;i<m;i++) {
 			System.out.println("Enter name and age: ");
 			name=sc.next();
 			age=sc.nextInt();
@@ -21,7 +21,7 @@ public class Demo2 {
 			else
 				p[i]= new SeniorCitizen(name,age);
 		}
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<m;i++) {
 			System.out.print(p[i].name+" : ");
 			System.out.println(p[i].occupation());
 		}
