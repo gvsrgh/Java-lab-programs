@@ -1,5 +1,5 @@
 import Test.Foundation;
-    public class Demo {
+public class Demo {
     public static void main(String[] args) {
         Test.Foundation foundation = new Test.Foundation();
         System.out.println("Accessing var2 (public): " + foundation.var2);
