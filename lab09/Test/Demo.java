@@ -1,17 +1,13 @@
-package lab09;
 import Test.Foundation;
-
-public class Demo {
+    public class Demo {
     public static void main(String[] args) {
-        Foundation foundation = new Foundation();
-        foundation.var1 = 10;
-        foundation.var2 = 20;   
-        foundation.var3 = 30;    
-        foundation.var4 = 40;
-        System.out.println("var1: "+ foundation.var1);    
-        System.out.println("var2: " + foundation.var2);
-        System.out.println("var3: " + foundation.var3);
-        System.out.println("var4: " + foundation.var4);
+        Test.Foundation foundation = new Test.Foundation();
+        System.out.println("Accessing var2 (public): " + foundation.var2);
+        /*
+       	System.out.println("Accessing var1 (private): " + foundation.var1);
+       	System.out.println("Accessing var3 (default): " + foundation.var3);
+       	System.out.println("Accessing var4 (protected): " + foundation.var4);
+       	*/
     }
 }
 
